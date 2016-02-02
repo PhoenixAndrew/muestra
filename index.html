@@ -1,0 +1,73 @@
+<!DOCTYPE HTML -->
+<html>
+<head>
+
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" type="text/css"/>
+<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" type="text/css"/>
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<!--link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<!--script src="http://code.jquery.com/jquery-1.11.1.min.js"></script-->
+<!--script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script-->
+<style type="text/css">
+    #encabezado{
+        text-align: center;
+        text-size: 14px;
+        color:24FF0D;
+        font-weight: bold;       
+    } 
+    #pie{
+        text-align: center;
+        text-size: 14px;
+        color:F85262;
+        font-weight: bold;       
+    }
+     #BckGnd{
+        background-color:F85389;
+             
+    }
+</style>
+</head>
+<body>
+    <div data-role="page" id="principal">
+	<div data-role="header">
+		<h1>Transiciones</>
+	</div>
+	<div data-role="content">
+		<p id="encabezado">Transiciones</p>
+                <a href="#segundo" data-role="button" data-transition="slideup">Transicion hacia arriba</a>
+                <a href="#segundo" data-role="button" data-transition="slidedown">Transicion hacia abajo</a>
+                <a href="#segundo" data-role="button" data-transition="top">Transicion Top</a>
+                <a href="#segundo" data-role="button" data-transition="flip">Transicion Flip</a>
+                <a href="#segundo" data-role="button" data-transition="fade">Transicion fade</a>
+                <a href="#segundo" data-role="button" data-transition="flow">Transicion flow</a>
+                <a href="#segundo" data-role="button" data-transition="slidefade">Transicion slidefade</a>
+                <a href="#segundo" data-role="button" data-transition="turn">Transicion turn</a>
+                <a href="#segundo" data-role="button" data-transition="none">Transicion null</a>
+	</div>  
+	<div data-role="footer">
+            <div data-role="controlgroup" data-type="hosizontal">
+                <a href="#segundo" class="ui-btn ui-icon-info-black ui-icon-left">Abrir segundo</a>  
+                <a href="#" class="ui-btn">Instagram</a>  
+                <a href="#" class="ui-btn">Twitter</a>  
+            </div>
+                
+        </div>
+	</div>
+</div>
+    
+<div data-role="page" id="segundo">
+	<div data-role="header">
+		<h1>Mi App2</>
+	</div>
+	<div data-role="content">
+		<p>Olii 2</p>
+	</div>
+	<div data-role="footer">
+		<p>pata pagina 2</p>
+	</div>
+</div>
+</body>
+</html>
